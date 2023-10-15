@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.section-item-first{
+  width: 22%;
+  padding: 1%;
+  height: 100vh;
+  border-right: 1px solid rgb(202, 199, 199);
+}
+.section-item-second {
+  width: 76%;
+}
+
+.my-navebar {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  border-bottom: 1px solid rgb(202, 199, 199);
+}
+
+.search-part {
+  width: 50%;
+}
+
+.search-icon {
+  position: absolute;
+  margin-top: 0.8rem;
+  padding: 0.2rem;
+}
+
+.user-part{
+  width: 50%;
+  text-align: right;
+}
+
+.search-input {
+  width: 60%;
+  border-radius: 8px;
+  margin-top: 0.6rem;
+  border: 1px solid rgb(202, 199, 199);
+}
+
+.search-input::placeholder {
+  padding: 1.2rem;
+}
+
+.search-input:focus {
+  width: 66%;
+  transition: ease-in-out, width .35s ease-in-out;
+  outline: none;
+}
+
+.user-img {
+  margin: 0.5rem;
+}
+
+.user-name {
+  font-size: 0.9rem;
+  width: 2rem;
+  position: relative;
+}
+
+.user-role {
+  display: block;
+  font-size: 0.6rem !important;
+  margin-top: -1rem;
+  color: gray;
+}
+
+.frame-part {
+  display: flex;
+  height: 6rem;
+}
+
+.fram-img{
+  width: 98%;
+  height: 9rem;
+}
+
+.table-part {
+  margin-top: 4rem;
+}
+
+.pagination-part {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
